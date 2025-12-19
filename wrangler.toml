@@ -1,0 +1,17 @@
+name = "gemini-chat-app"
+main = "backend/worker.js"
+compatibility_date = "2024-12-09"
+
+# KV Namespace Binding
+[[kv_namespaces]]
+binding = "CHAT_HISTORY"
+id = "6aa784b64607468d800644f89cd2fb3b"
+
+# D1 Database Binding
+[[d1_databases]]
+binding = "DB"
+database_name = "users-db"
+database_id = "2f421bc7-45fe-4ea0-aa7d-b7348ff4c850"
+
+
+
